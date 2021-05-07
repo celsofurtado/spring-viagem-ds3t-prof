@@ -16,7 +16,7 @@ public class Foto {
 	
 	private String url;
 	
-	private boolean destaque;
+	private boolean destaque; 
 	
 	@ManyToOne
 	@JoinColumn(nullable = false)

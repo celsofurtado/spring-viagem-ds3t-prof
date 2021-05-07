@@ -16,3 +16,7 @@ INSERT INTO destino values (200, '2021-03-15', 'Teste', 'Ibirapuera', 200, 10);
 INSERT INTO destino values (300, '2021-03-25', 'Teste', 'Senai Jandira', 0, 20);
 INSERT INTO destino values (400, '2021-04-29', 'Teste', 'Cristo Redentor', 500, 60);
 
+INSERT INTO foto values (1, true, 'http://xxx', 100);
+INSERT INTO foto values (2, true, 'http://xxx', 200);
+
+
