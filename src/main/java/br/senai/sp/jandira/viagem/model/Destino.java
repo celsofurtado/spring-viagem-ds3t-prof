@@ -24,6 +24,8 @@ public class Destino {
 	private Long id;
 
 	private String nome;
+	
+	@Column(length = 1000)
 	private String descricao;
 	private double valor;
 	private LocalDate dataInclusao;
@@ -35,6 +37,10 @@ public class Destino {
 	@JsonIgnore
 	@OneToMany(mappedBy = "destino")
 	private List<Foto> fotos = new ArrayList<Foto>();
+	
+	@JsonIgnore
+	@OneToMany(mappedBy = "destino")
+	private List<Comentario> comentarios = new ArrayList<>();
 
 	public Long getId() {
 		return id;

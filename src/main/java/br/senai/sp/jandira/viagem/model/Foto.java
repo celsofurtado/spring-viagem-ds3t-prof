@@ -46,6 +46,14 @@ public class Foto {
 		this.destino = destino;
 	}
 
+	public boolean isDestaque() {
+		return destaque;
+	}
+
+	public void setDestaque(boolean destaque) {
+		this.destaque = destaque;
+	}
+
 	@Override
 	public String toString() {
 		return "Foto [id=" + id + ", url=" + url + ", destino=" + destino + "]";

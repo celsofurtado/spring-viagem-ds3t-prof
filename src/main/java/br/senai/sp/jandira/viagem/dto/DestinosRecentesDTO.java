@@ -8,6 +8,7 @@ public class DestinosRecentesDTO {
 	private String nomeCidade;
 	private String siglaEstado;
 	private String urlFoto;
+	private String descricao;
 
 	public Long getId() {
 		return id;
@@ -55,6 +56,14 @@ public class DestinosRecentesDTO {
 
 	public void setUrlFoto(String urlFoto) {
 		this.urlFoto = urlFoto;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
 }
