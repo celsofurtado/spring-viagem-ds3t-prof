@@ -29,7 +29,7 @@ INSERT INTO foto values (7, true, 'https://firebasestorage.googleapis.com/v0/b/u
 INSERT INTO foto values (8, false, 'https://firebasestorage.googleapis.com/v0/b/upload-image-to-firebase-5aceb.appspot.com/o/images%2Fibira2.jpg?alt=media&token=1a1a1ab2-34cf-4144-bc74-72c23394b508', 200);
 INSERT INTO foto values (9, true, 'https://firebasestorage.googleapis.com/v0/b/upload-image-to-firebase-5aceb.appspot.com/o/images%2Fsenai.jpg?alt=media&token=3b82c7c9-3aa5-49c4-a119-86685f751d32', 300);
 
-INSERT INTO usuario VALUES ('7878456454654', 'Pedro Álvares Cabral', 'pedro@terra.com.br', 'https://lh3.googleusercontent.com/a-/AOh14GiGq5wshCsLoMf1Ixe0W9V4L2zuH_c2QKNLOGbrzw');
+INSERT INTO usuario VALUES ('7878456454654', 'Celso Furtado', 'celso@terra.com.br', 'https://lh3.googleusercontent.com/a-/AOh14GiGq5wshCsLoMf1Ixe0W9V4L2zuH_c2QKNLOGbrzw');
 INSERT INTO usuario VALUES ('7878456454655', 'Astolfo Pereira', 'astolfopereira333@gmail.com', 'https://lh3.googleusercontent.com/a-/AOh14Gh8hEc9p8A8Cy7Ev07v1gfo-MqoLHh69eWZzefQ');
 
 INSERT INTO comentario VALUES(1, 'Copacabana sem dúvidas é um dos melhores destinos do Brasil. Se você for ao Rio de Janeiro este deve ser o passeio que você não deixará de fazer. Muito bom!!', '2021-05-11', 5, 100, '7878456454654');
